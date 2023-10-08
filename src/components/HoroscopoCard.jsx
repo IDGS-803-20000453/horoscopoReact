@@ -79,18 +79,18 @@ const HoroscopoCard = ({ fecha }) => {
 
     
     const horoscopos = {
-        'Aries': 'Amor: No es una semana favorable en el amor. Será un momento de definiciones, evita apegarte demasiado.Dinero: Puede haber incertidumbre en el trabajo, evalúa tus prioridades.Clave de la semana: Si sigues intentando, encontrarás oportunidades.',
-        'Tauro': 'Amor: Buena etapa para establecer bases sólidas en tu relación. Alguien especial te conmoverá. Dinero: Trabaja en las relaciones públicas, están cerca de tus objetivos aunque hay más trabajo que dinero. Clave de la semana: Crea conexiones que te acerquen a la competencia.',
-        'Géminis': 'Amor: Replantea tu rumbo en el amor ya que Venus cambia de signo y no te favorece. Dinero: Mantente coherente en el trabajo, pronto tendrás que rendir cuentas. Clave de la semana: Sé inclusivo con personas diferentes a ti.',
-        'Cáncer': 'Amor: Momento propicio para mostrar afecto hacia tu pareja. Dinero: Evita negocios de alto riesgo, es mejor trabajar en equipo. Clave de la semana: Atiende a tu familia cuando te necesiten.',
-        'Leo': 'Amor: No te sacrifiques demasiado por los demás, da solo lo que puedas. Dinero: Mantén un perfil bajo en asuntos financieros. Clave de la semana: Amor con libertad, evita resolver los problemas de otros.',
-        'Virgo': 'Amor: Venus te favorece, estarás muy cariñoso y demandante. Dinero: Buen momento para ganar terreno en el ámbito laboral. Clave de la semana: No compartas tus triunfos con personas negativas.',
-        'Libra': 'Amor: Con el cambio de signo de Venus, hay un desbalance en tu relación. Dinero: Recibirás fondos para un proyecto. Clave de la semana: Recibirás ayuda de quienes has ayudado antes.',
-        'Escorpio': 'Amor: Fuerte cohesión con tu pareja y familia. Dinero: Tendrás una posición ganadora en asuntos financieros. Clave de la semana: No busques consejo si ya tomaste una decisión.',
-        'Sagitario': 'Amor: Posible desilusión o desconexión afectiva temporal. Dinero: Reorganiza tus fuerzas para resolver imprevistos. Clave de la semana: Un pequeño error no te derribará, podrás con todo.',
-        'Capricornio': 'Amor: Venus transforma el amor en un viaje emocionante. Dinero: No es momento para cambios laborales. Clave de la semana: Amar significa estar presente.',
-        'Acuario': 'Amor: No planifiques el amor, si surge un sentimiento sincero, acéptalo. Dinero: Buen momento en lo profesional, pronto recibirás lo que mereces. Clave de la semana: Mejor arrepentirse de intentar un cambio que de no intentar nada.',
-        'Piscis': 'Amor: Establece límites claros en tus relaciones, sé franco. Dinero: Cuidado con el manejo de dinero ajeno. Clave de la semana: La madurez se refleja en actuar correctamente y en el momento adecuado​.',
+        'Aries': '21 de marzo - 19 de abril. Amor: No es una semana favorable en el amor. Será un momento de definiciones, evita apegarte demasiado.Dinero: Puede haber incertidumbre en el trabajo, evalúa tus prioridades.Clave de la semana: Si sigues intentando, encontrarás oportunidades.',
+        'Tauro': '20 de abril - 20 de mayo. Amor: Buena etapa para establecer bases sólidas en tu relación. Alguien especial te conmoverá. Dinero: Trabaja en las relaciones públicas, están cerca de tus objetivos aunque hay más trabajo que dinero. Clave de la semana: Crea conexiones que te acerquen a la competencia.',
+        'Géminis': '21 de mayo - 20 de junio. Amor: Replantea tu rumbo en el amor ya que Venus cambia de signo y no te favorece. Dinero: Mantente coherente en el trabajo, pronto tendrás que rendir cuentas. Clave de la semana: Sé inclusivo con personas diferentes a ti.',
+        'Cáncer': '21 de junio - 22 de julio. Amor: Momento propicio para mostrar afecto hacia tu pareja. Dinero: Evita negocios de alto riesgo, es mejor trabajar en equipo. Clave de la semana: Atiende a tu familia cuando te necesiten.',
+        'Leo': '23 de julio - 22 de agosto. Amor: No te sacrifiques demasiado por los demás, da solo lo que puedas. Dinero: Mantén un perfil bajo en asuntos financieros. Clave de la semana: Amor con libertad, evita resolver los problemas de otros.',
+        'Virgo': '23 de agosto - 22 de septiembre. Amor: Venus te favorece, estarás muy cariñoso y demandante. Dinero: Buen momento para ganar terreno en el ámbito laboral. Clave de la semana: No compartas tus triunfos con personas negativas.',
+        'Libra': '23 de septiembre - 22 de octubre. Amor: Con el cambio de signo de Venus, hay un desbalance en tu relación. Dinero: Recibirás fondos para un proyecto. Clave de la semana: Recibirás ayuda de quienes has ayudado antes.',
+        'Escorpio': '23 de octubre - 21 de noviembre. Amor: Fuerte cohesión con tu pareja y familia. Dinero: Tendrás una posición ganadora en asuntos financieros. Clave de la semana: No busques consejo si ya tomaste una decisión.',
+        'Sagitario': '22 de noviembre - 21 de diciembre. Amor: Posible desilusión o desconexión afectiva temporal. Dinero: Reorganiza tus fuerzas para resolver imprevistos. Clave de la semana: Un pequeño error no te derribará, podrás con todo.',
+        'Capricornio': '22 de diciembre - 19 de enero. Amor: Venus transforma el amor en un viaje emocionante. Dinero: No es momento para cambios laborales. Clave de la semana: Amar significa estar presente.',
+        'Acuario': '20 de enero - 18 de febrero. Amor: No planifiques el amor, si surge un sentimiento sincero, acéptalo. Dinero: Buen momento en lo profesional, pronto recibirás lo que mereces. Clave de la semana: Mejor arrepentirse de intentar un cambio que de no intentar nada.',
+        'Piscis': '19 de febrero - 20 de marzo. Amor: Establece límites claros en tus relaciones, sé franco. Dinero: Cuidado con el manejo de dinero ajeno. Clave de la semana: La madurez se refleja en actuar correctamente y en el momento adecuado​.',
     };
 
     return (
