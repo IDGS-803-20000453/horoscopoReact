@@ -1,0 +1,103 @@
+body {
+  background-color: #000;
+}
+
+.container {
+  display: flex;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 100%; /* El total de los anchos de los cards más márgenes */
+  margin: 0 auto; /* Centrar el contenedor en la página */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+
+}
+
+.fecha-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 30%; /* Ancho del contenedor */
+
+
+}
+
+.fecha-container label {
+  margin-bottom: 0.5rem;
+}
+
+.fecha-container input {
+  padding: 0.5rem;
+  border: 1px solid rgb(0, 0, 0)000;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #f3f3f3; /* Fondo más claro para el input */
+  width: 100%; /* El input ocupa todo el ancho del contenedor */
+  margin-bottom: 1rem; /* Más espacio entre el input y el botón */
+  color: #000; /* Color oscuro para el texto */
+  
+  
+
+}
+
+/* Cambiar color del ícono de calendario en Chrome */
+.fecha-container input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  background-color: rgb(0, 0, 0); /* El color que deseas para el ícono */
+}
+
+.horoscopo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 40%;
+}
+
+.horoscopo-card h2 {
+  font-size: 2rem;  /* Tamaño más grande para "Horóscopo React" */
+  color: #333; /* Color oscuro para el texto */
+  margin-bottom: 2.5rem; /* Aumenta el margen inferior */
+  
+}
+
+.horoscopo-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #000000; /* color naranja, puedes ajustar */
+  font-weight: bold; /* Texto en negrita */
+
+}
+
+.horoscopo-card p {
+  color: #666; /* Color más claro para la descripción */
+  max-width: 80%; /* Controlar el ancho del texto */
+  text-align: left; /* Alinear a la izquierda */
+}
+
+.fecha-container, .horoscopo-card {
+  background-color: #ffffff; /* Fondo blanco para ambos cards */
+}
+.fecha-container label {
+  color: #333;  /* Color oscuro para el texto */
+  font-size: 1.2rem; /* Aumentar tamaño del texto */
+  font-weight: bold; /* Hacer el texto en negrita */
+  margin-bottom: 1rem; /* Más espacio entre el label y el input */
+}
+
+/* poner .titulo en una fila hasta abajo */
+.titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
