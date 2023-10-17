@@ -89,7 +89,7 @@ const HoroscopoCard = ({ fecha }) => {
         'Escorpio': '23 de octubre - 21 de noviembre. Amor: Fuerte cohesión con tu pareja y familia. Dinero: Tendrás una posición ganadora en asuntos financieros. Clave de la semana: No busques consejo si ya tomaste una decisión.',
         'Sagitario': '22 de noviembre - 21 de diciembre. Amor: Posible desilusión o desconexión afectiva temporal. Dinero: Reorganiza tus fuerzas para resolver imprevistos. Clave de la semana: Un pequeño error no te derribará, podrás con todo.',
         'Capricornio': '22 de diciembre - 19 de enero. Amor: Venus transforma el amor en un viaje emocionante. Dinero: No es momento para cambios laborales. Clave de la semana: Amar significa estar presente.',
-        'Acuario': '20 de enero - 18 de febrero. Amor: No planifiques el amor, si surge un sentimiento sincero, acéptalo. Dinero: Buen momento en lo profesional, pronto recibirás lo que mereces. Clave de la semana: Mejor arrepentirse de intentar un cambio que de no intentar nada.',
+        'Acuario': '20 de enero - 18 de febrero. Amor: No planifiques el amor, si surge un sentimiento sincero, acéptalo. Dinero: Buen momento en lo profesional, pronto recibirás lo que mereces. Clave de la semana: Mejor arrepentirse de intentar un cambio que de no intentar nada',
         'Piscis': '19 de febrero - 20 de marzo. Amor: Establece límites claros en tus relaciones, sé franco. Dinero: Cuidado con el manejo de dinero ajeno. Clave de la semana: La madurez se refleja en actuar correctamente y en el momento adecuado​.',
     };
 

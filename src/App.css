@@ -12,7 +12,25 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: start;
+  flex-wrap: wrap;
 
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fecha-container, .horoscopo-card {
+    width: 100%; /* Ocupa todo el ancho en pantallas pequeñas */
+    margin-bottom: 1rem; /* Agrega un margen en la parte inferior para separar los cards */
+  }
+
+  .titulo {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .fecha-container {
